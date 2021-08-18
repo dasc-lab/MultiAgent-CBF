@@ -1,4 +1,4 @@
-# CBF-Adversary
+# MultiAgent-CBF and MVG GP
 This repo gives exmaples of multiagent control with cvx library and also gives a library (in form of class) for Multivariate Gaussian Process(Matrix Normal Distribution [MVG](https://en.wikipedia.org/wiki/Matrix_normal_distribution)) Estimation.
 
 ## Dependencies
