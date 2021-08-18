@@ -9,6 +9,7 @@ This code is written in MATLAB. Following additional packages need to be install
 cvx_solver gurobi
 cvx_save_prefs
 ```
+No additional dependency required for Gaussian Process implementation.
 
 ## Code organization
 1. **predefined_functions**: contains helper functions
