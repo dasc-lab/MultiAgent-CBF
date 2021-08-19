@@ -10,8 +10,7 @@ clear all;
 N = 100;   % number of data points  
 X = 10*linspace(0,1,N)';
 X = [X];       
-y = 1 + X + X.*X + 0.2*randn(N,1);  
-y = [sin(X) cos(X)];
+y = [sin(X) cos(X)]; %+0.2*randn(N,2)
 
 %% Initial GP Hyper parameters
 Omega = [1 0;
@@ -47,7 +46,7 @@ figure(1)
 plot_results(N,X,y,gp_org,gp,index)
 
 
-%% Plot y1 = cos(X) prediction
+%% Plot y2 = cos(X) prediction
 index = 2;
 figure(2)
 plot_results(N,X,y,gp_org,gp,index)
